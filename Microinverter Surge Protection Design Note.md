@@ -52,7 +52,7 @@ maintenance to replace those components.
 An excerpt of the microinverter schematic is included below showing
 these MOVs.
 
-<img src="images/Pictures/1000000100000565000001D41D5325A4.png"
+<img src="Images/Pictures/1000000100000565000001D41D5325A4.png"
 style="width:17cm;height:5.761cm" />
 
 ## 
@@ -157,7 +157,7 @@ waveform generator, aiming to generate a 8/20 µs current pulse. Note the
 waveform times refer to rise time and impulse width. Shown nicely in
 this excerpt from the Brightking 621KN14 datasheet.
 
-<img src="images/Pictures/100000010000023E0000011FD1658116.png"
+<img src="Images/Pictures/100000010000023E0000011FD1658116.png"
 style="width:15.189cm;height:7.594cm" />
 
 A combination waveform generator can be represented as a set of simple
@@ -183,12 +183,12 @@ section below shows the expected characteristics of this device, and
 shows an example of it under a 4 kV, 2 Ohm input impedance surge
 immunity test using a simulated combination wave generator.
 
-<img src="images/Pictures/10000001000002C60000008175C35CF9.png"
-style="width:17cm;height:3.087cm" /><img src="images/Pictures/10000001000002BB000000236FB3C046.png"
+<img src="Images/Pictures/10000001000002C60000008175C35CF9.png"
+style="width:17cm;height:3.087cm" /><img src="Images/Pictures/10000001000002BB000000236FB3C046.png"
 style="width:16.836cm;height:0.85cm" />Varistor voltage is the voltage
 between two terminals with specified measuring current of 1mA DC.
 
-<img src="images/Pictures/100000010000023E0000011FD1658116.png"
+<img src="Images/Pictures/100000010000023E0000011FD1658116.png"
 style="width:15.189cm;height:7.594cm" />
 
 ~0 Amps at less than 620 V
@@ -207,14 +207,14 @@ resistance. Back to back configuration.
 Validated in simulation as a “good enough” model with the combination
 wave generator.
 
-<img src="images/Pictures/10000001000003DA000002A813CF2660.png"
-style="width:12.739cm;height:8.784cm" /><img src="images/Pictures/100000010000027E00000166997030A5.png"
+<img src="Images/Pictures/10000001000003DA000002A813CF2660.png"
+style="width:12.739cm;height:8.784cm" /><img src="Images/Pictures/100000010000027E00000166997030A5.png"
 style="width:13.28cm;height:7.452cm" />
 
 ## RV101, RV102, RV103: Littelfuse TMOV14RP275E
 
-<img src="images/Pictures/1000000100000590000001173DCCDC4F.png"
-style="width:17cm;height:3.33cm" /><img src="images/Pictures/100000010000059C00000024A7D3811F.png"
+<img src="Images/Pictures/1000000100000590000001173DCCDC4F.png"
+style="width:17cm;height:3.33cm" /><img src="Images/Pictures/100000010000059C00000024A7D3811F.png"
 style="width:17cm;height:0.425cm" />
 
 ~0 Amps at less than 473 V
@@ -233,8 +233,8 @@ resistance. Back to back configuration.
 Validated in simulation as a “good enough” model with the combination
 wave generator.
 
-<img src="images/Pictures/10000001000003DC000002A777A7AAE1.png"
-style="width:12.3cm;height:8.453cm" /><img src="images/Pictures/100000010000027E00000166997030A5.png"
+<img src="Images/Pictures/10000001000003DC000002A777A7AAE1.png"
+style="width:12.3cm;height:8.453cm" /><img src="Images/Pictures/100000010000027E00000166997030A5.png"
 style="width:13.28cm;height:7.452cm" />
 
 ## GD1: RUILON 2R600B-8S
@@ -244,18 +244,18 @@ shows the expected characteristics of this device, and shows an example
 of it under a 4 kV, 2 Ohm input impedance surge immunity test using a
 simulated combination wave generator.
 
-<img src="images/Pictures/10000001000004820000010D282B58D1.png"
+<img src="Images/Pictures/10000001000004820000010D282B58D1.png"
 style="width:17cm;height:3.962cm" />
 
-<img src="images/Pictures/100000010000048B0000003462AA6C6D.png"
+<img src="Images/Pictures/100000010000048B0000003462AA6C6D.png"
 style="width:17cm;height:0.758cm" />R = V / I = 15 / 1 = 15 Ohm at “Arc”
 
-<img src="images/Pictures/10000001000003D4000002A3B6838C09.png"
+<img src="Images/Pictures/10000001000003D4000002A3B6838C09.png"
 style="width:12.868cm;height:8.862cm" />The simulation top level (left)
 and the internals of the Gas Discharge sub circuit (right)
 
-<img src="images/Pictures/10000001000002DA0000014D041EE3CB.png"
-style="width:9.4cm;height:4.286cm" /><img src="images/Pictures/10000001000001EA000001E090F0F593.png"
+<img src="Images/Pictures/10000001000002DA0000014D041EE3CB.png"
+style="width:9.4cm;height:4.286cm" /><img src="Images/Pictures/10000001000001EA000001E090F0F593.png"
 style="width:5.856cm;height:5.738cm" />
 
 Vgdt = 600 V, Vpeak = 4000 V
@@ -281,8 +281,8 @@ link capacitor C6 sees virtually no change. There is significant ringing
 due to the capacitive and inductive components interacting with each
 other, but it is damped to zero within 50 ms.
 
-<img src="images/Pictures/1000000100000723000001E744B1C2EA.png"
-style="width:17cm;height:4.531cm" /><img src="images/Pictures/10000001000003E2000002C814545DEB.png"
+<img src="Images/Pictures/1000000100000723000001E744B1C2EA.png"
+style="width:17cm;height:4.531cm" /><img src="Images/Pictures/10000001000003E2000002C814545DEB.png"
 style="width:17cm;height:11.869cm" />
 
 This is a live to neutral surge test with the same plots as above.
@@ -293,10 +293,10 @@ see a voltage above ~500 V. There is some ringing, but less in this
 scenario and it is damped by approximately 20 ms. C6 is largely
 unaffected by the surge.
 
-<img src="images/Pictures/10000001000006D8000001AC74988A9E.png"
+<img src="Images/Pictures/10000001000006D8000001AC74988A9E.png"
 style="width:17cm;height:4.152cm" />
 
-<img src="images/Pictures/10000001000003D7000002A9F3E66538.png"
+<img src="Images/Pictures/10000001000003D7000002A9F3E66538.png"
 style="width:17cm;height:11.776cm" />
 
 # 
